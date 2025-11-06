@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi mapa interactivo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #111;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+    }
+    iframe {
+      width: 90%;
+      height: 80vh;
+      border: none;
+      margin: 2rem auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      margin-bottom: 1rem;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>🌍 El comerç local al centre de Badalona </header>
+
+  <!-- 👇 Sustituye la URL de este iframe por el enlace de tu mapa -->
+  <iframe 
+    src="https://www.google.com/maps/d/embed?mid=1h__T8IxJT2F9SiiZhqYjrGWsojx-xDs&ehbc=2E312F" width="640" height="480"></iframe>
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+
+  <footer>
+    <p>Hecho por [Tu nombre] — Proyecto de Geografía 🌍</p>
+  </footer>
+</body>
+</html>
+
